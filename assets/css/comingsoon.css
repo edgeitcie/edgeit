@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+html,
+p,
+h1,
+h2,
+div {
+    font-family: "Abel", sans-serif !important;
+}
+
+p,
+b {
+    font-size: x-large;
+    font-weight: 300;
+}
+
+#logo-img {
+    width: 150px;
+}
+
+.firstCodeLine {
+    padding-bottom: 8px;
+}
+
+.contributions {
+    font-size: 10px;
+}
+
+.footer-copyright {
+    bottom: 0 !important;
+}
+
+@media (max-width: 768px){
+    #page_2_body #section_1{
+        display: none !important;
+    }   
+    #page_2_body .coming-soon-sm{
+        display: block !important;
+    }
+}
+@media (min-width: 768px){
+    #page_2_body .coming-soon-sm{
+        display: none !important;
+
+    }
+}
